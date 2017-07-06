@@ -2,7 +2,7 @@ import * as express from "express";
 
 const app = express();
 
-app.get("/", (request: Express.Request, response: Express.Response) => {
+app.get("/", (request, response) => {
   response.json({ hello: "world" });
 });
 
